@@ -25,4 +25,13 @@ public class Gun : MonoBehaviour
         Destroy(newBullet, bulletLifeTimeSec);
     }
 
+    [ContextMenu("TestFireBullet")]
+    public void FireBulletTest()
+    {
+        GameObject newBullet = Instantiate(bulletPrefab);
+        newBullet.transform.position = spawnPoint.position;
+        newBullet.GetComponent<Rigidbody>().velocity = spawnPoint.forward * bulletSpeed;
+        Destroy(newBullet, bulletLifeTimeSec);
+    }
+
 }
