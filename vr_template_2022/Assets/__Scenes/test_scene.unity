@@ -148,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3178221}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.1, y: -0.34, z: 0}
+  m_LocalPosition: {x: -3.68, y: -0.34, z: 3.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -275,9 +275,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 62235285}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: 0, y: 0.63, z: 0}
+  m_LocalScale: {x: 1, y: 0.60401, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3178222}
   m_RootOrder: 0
@@ -571,7 +571,7 @@ GameObject:
   - component: {fileID: 401265022}
   - component: {fileID: 401265024}
   - component: {fileID: 401265023}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: kine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -858,7 +858,7 @@ GameObject:
   - component: {fileID: 473087126}
   - component: {fileID: 473087125}
   - component: {fileID: 473087124}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Instantious
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1356,7 +1356,7 @@ GameObject:
   - component: {fileID: 602219369}
   - component: {fileID: 602219368}
   - component: {fileID: 602219367}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Grabable Kinematic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2247,7 +2247,7 @@ GameObject:
   - component: {fileID: 1006100692}
   - component: {fileID: 1006100693}
   - component: {fileID: 1006100694}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: XR Origin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3157,7 +3157,7 @@ GameObject:
   - component: {fileID: 1035455488}
   - component: {fileID: 1035455492}
   - component: {fileID: 1035455487}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Grabable Velocity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3398,7 +3398,7 @@ GameObject:
   - component: {fileID: 1046042841}
   - component: {fileID: 1046042846}
   - component: {fileID: 1046042845}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TestSimpleInteract
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3647,8 +3647,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067986102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5504, y: -0.075, z: 3.0916}
-  m_LocalScale: {x: 0.4899, y: 1, z: 0.3817}
+  m_LocalPosition: {x: 1.0053, y: -0.075, z: 3.0916}
+  m_LocalScale: {x: 0.5434804, y: 1, z: 0.3817}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 919763395}
@@ -3858,7 +3858,7 @@ GameObject:
   - component: {fileID: 1398580734}
   - component: {fileID: 1398580733}
   - component: {fileID: 1398580732}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Grabable Instantious
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4309,7 +4309,7 @@ GameObject:
   - component: {fileID: 1513090647}
   - component: {fileID: 1513090649}
   - component: {fileID: 1513090648}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: velo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4485,6 +4485,14 @@ PrefabInstance:
       propertyPath: bulletSpeed
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 709443666, guid: 087e2a9d318d8b842b11b221d1f79534, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1264541808, guid: 087e2a9d318d8b842b11b221d1f79534, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4511655667520052993, guid: 087e2a9d318d8b842b11b221d1f79534,
         type: 3}
       propertyPath: m_RootOrder
@@ -4544,6 +4552,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pistol
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511655667520406305, guid: 087e2a9d318d8b842b11b221d1f79534,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511655667520406309, guid: 087e2a9d318d8b842b11b221d1f79534,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511655667520406311, guid: 087e2a9d318d8b842b11b221d1f79534,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 087e2a9d318d8b842b11b221d1f79534, type: 3}
