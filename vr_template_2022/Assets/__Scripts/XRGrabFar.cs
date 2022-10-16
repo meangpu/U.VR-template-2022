@@ -5,6 +5,9 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class XRGrabFar : XRGrabInteractable
 {
+    private Vector3 initialLocalPos;
+    private Quaternion initialLocalRot;
+
     void Start()
     {
         if (!attachTransform)
@@ -13,13 +16,29 @@ public class XRGrabFar : XRGrabInteractable
             attachPoint.transform.SetParent(transform, false);
             attachTransform = attachPoint.transform;
         }
+        else
+        {
+            initialLocalPos = attachTransform.localPosition;
+            initialLocalRot = attachTransform.localRotation;
+        }
 
     }
 
     protected override void OnSelectEntered(SelectEnterEventArgs args)
     {
-        attachTransform.position = args.interactableObject.transform.position;
-        attachTransform.rotation = args.interactableObject.transform.rotation;
+        if (args.interactorObject is XRDirectInteractor)
+        {
+            // this mean grab with hand
+            attachTransform.position = args.interactableObject.transform.position;
+            attachTransform.rotation = args.interactableObject.transform.rotation;
+        }
+        else
+        {
+            // this mean grab with RAY
+
+            attachTransform.position = initialLocalPos;
+            attachTransform.rotation = initialLocalRot;
+        }
         base.OnSelectEntered(args);
     }
 }
