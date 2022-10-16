@@ -5,5 +5,6 @@ using UnityEngine.InputSystem;
 
 public class AnimateHandOnInput : MonoBehaviour
 {
-    [serializefield] InputActionProperty pinchAnimationAction;
+    [SerializeField] InputActionProperty pinchAnimationAction;
+
 }
