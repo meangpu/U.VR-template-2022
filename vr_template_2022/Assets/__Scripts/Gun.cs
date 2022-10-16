@@ -19,6 +19,7 @@ public class Gun : MonoBehaviour
 
     public void FireBullet(ActivateEventArgs arg)
     {
+        FindObjectOfType<AudioManager>().Play("gunfire");
         GameObject newBullet = Instantiate(bulletPrefab);
         newBullet.transform.position = spawnPoint.position;
         newBullet.GetComponent<Rigidbody>().velocity = spawnPoint.forward * bulletSpeed;
@@ -28,6 +29,7 @@ public class Gun : MonoBehaviour
     [ContextMenu("TestFireBullet")]
     public void FireBulletTest()
     {
+        FindObjectOfType<AudioManager>().Play("gunfire");
         GameObject newBullet = Instantiate(bulletPrefab);
         newBullet.transform.position = spawnPoint.position;
         newBullet.GetComponent<Rigidbody>().velocity = spawnPoint.forward * bulletSpeed;
