@@ -146,7 +146,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106808589}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -442,13 +442,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 175773739}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 106808590}
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 611599646}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &175773741
 MonoBehaviour:
@@ -462,9 +462,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d553d146964b24149865f813965ae26e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  head: {fileID: 1006100686}
-  spawnDistance: 2.5
-  headOffset: 0.5
   menu: {fileID: 106808589}
   showButton:
     m_UseReference: 1
@@ -1320,7 +1317,7 @@ Transform:
   - {fileID: 707000964}
   - {fileID: 1528343397}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &401265021
 GameObject:
@@ -3369,7 +3366,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 175773740}
   m_Father: {fileID: 2041877392}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4152,7 +4150,7 @@ PrefabInstance:
     - target: {fileID: 4988722083491944636, guid: ae55c9d225bfecb47a1e6575a422aa92,
         type: 3}
       propertyPath: m_Name
-      value: teleport guide (1)
+      value: teleport guide
       objectReference: {fileID: 0}
     - target: {fileID: 4988722083491944636, guid: ae55c9d225bfecb47a1e6575a422aa92,
         type: 3}
@@ -5942,7 +5940,7 @@ PrefabInstance:
     - target: {fileID: 4988722083491944636, guid: ae55c9d225bfecb47a1e6575a422aa92,
         type: 3}
       propertyPath: m_Name
-      value: by
+      value: Made by
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae55c9d225bfecb47a1e6575a422aa92, type: 3}
