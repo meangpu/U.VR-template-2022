@@ -8675,6 +8675,11 @@ PrefabInstance:
       propertyPath: m_AttachTransform
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4177739379174868109, guid: befe8417374fa25438a4f23f0d5c31b1,
+        type: 3}
+      propertyPath: m_MovementType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8223954560914885089, guid: befe8417374fa25438a4f23f0d5c31b1,
         type: 3}
       propertyPath: m_Name
