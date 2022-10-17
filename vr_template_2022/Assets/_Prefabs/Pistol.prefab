@@ -177,8 +177,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 4601149204399868954, guid: b511a1e616718fe4b9f911af554fa021,
     type: 3}
   spawnPoint: {fileID: 7024413148365026431}
-  bulletSpeed: 8
-  bulletLifeTimeSec: 8
+  bulletSpeed: 12
+  bulletLifeTimeSec: 2
 --- !u!114 &4177739379174868109
 MonoBehaviour:
   m_ObjectHideFlags: 0
