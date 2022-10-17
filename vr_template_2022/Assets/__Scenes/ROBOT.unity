@@ -2322,9 +2322,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentObject: {fileID: 1829515651}
   easeType: 0
-  increase: 0
+  increase: 2
   staticTimeDuration: 0.2
-  allAtOnceMultiple: 0
+  allAtOnceMultiple: 0.5
   allAtOnce: 0
   _toggle: {fileID: 1022493907}
   _slider: {fileID: 1878300846}
@@ -4929,7 +4929,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1023081666
 GameObject:
   m_ObjectHideFlags: 0
@@ -7544,10 +7544,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 155213246}
   m_HandleRect: {fileID: 1568055350}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.01
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
