@@ -12,13 +12,13 @@ public class SetTurnType : MonoBehaviour
     {
         if (index == 0)
         {
-            snapTurn.enabled = false;
-            continuousTurn.enabled = true;
+            snapTurn.enabled = true;
+            continuousTurn.enabled = false;
         }
         else if (index == 1)
         {
-            snapTurn.enabled = true;
-            continuousTurn.enabled = false;
+            snapTurn.enabled = false;
+            continuousTurn.enabled = true;
         }
     }
 }
