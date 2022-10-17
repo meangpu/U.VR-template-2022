@@ -221,14 +221,13 @@ public class SeparateManager : MonoBehaviour
     void TurnOffGravity()
     {
         TurnGravity(false);
-        SetGravityBtnAs(_blueCol, "OFF");
+        SetGravityBtnAs(_blueCol, "<size=17>Gravity</size>\nIS OFF");
     }
     void TurnOnGravity()
     {
         TurnGravity(true);
-        SetGravityBtnAs(_redCol, "ON");
+        SetGravityBtnAs(_redCol, "<size=17>Gravity</size>\nIS ON");
     }
-
 
 
 
