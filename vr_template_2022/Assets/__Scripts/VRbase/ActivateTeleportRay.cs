@@ -28,8 +28,8 @@ public class ActivateTeleportRay : MonoBehaviour
         bool isLeftPress = leftActivate.action.ReadValue<float>() > 0.1f;
         bool isRightPress = rightActivate.action.ReadValue<float>() > 0.1f;
 
-        bool isLeftNotGrabing = leftCancel.action.ReadValue<float>() == 0;
-        bool isRightNotGrabing = rightCancel.action.ReadValue<float>() == 0;
+        bool isLeftNotGrabing = leftCancel.action.ReadValue<float>() < 0.1f;
+        bool isRightNotGrabing = rightCancel.action.ReadValue<float>() < 0.1f;
 
         leftTeleportRay.SetActive(!isLeftRayHovering && isLeftNotGrabing && isLeftPress);
         rightTeleportRay.SetActive(!isRightRayHovering && isRightNotGrabing && isRightPress);
