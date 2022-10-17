@@ -7368,13 +7368,13 @@ MonoBehaviour:
   m_ReferenceFrame: {fileID: 1006100686}
   m_Velocity: 12
   m_Acceleration: 9.8
-  m_AdditionalGroundHeight: 0.1
-  m_AdditionalFlightTime: 1.2
+  m_AdditionalGroundHeight: 0.05
+  m_AdditionalFlightTime: 0.8
   m_EndPointDistance: 10
   m_EndPointHeight: -2
   m_ControlPointDistance: 2
   m_ControlPointHeight: 5
-  m_SampleFrequency: 10
+  m_SampleFrequency: 20
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
   m_RaycastMask:
@@ -11325,13 +11325,13 @@ MonoBehaviour:
   m_ReferenceFrame: {fileID: 1006100686}
   m_Velocity: 12
   m_Acceleration: 9.8
-  m_AdditionalGroundHeight: 0.1
-  m_AdditionalFlightTime: 1.2
+  m_AdditionalGroundHeight: 0.05
+  m_AdditionalFlightTime: 0.8
   m_EndPointDistance: 10
   m_EndPointHeight: -2
   m_ControlPointDistance: 2
   m_ControlPointHeight: 5
-  m_SampleFrequency: 10
+  m_SampleFrequency: 20
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
   m_RaycastMask:
