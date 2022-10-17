@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 688848978104028574}
   m_Layer: 7
-  m_Name: Grabpoint
+  m_Name: GrabPointRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,6 +31,37 @@ Transform:
   m_Father: {fileID: 8223954560915248577}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 3.025, z: -12.454}
+--- !u!1 &4551341161349079658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 737774604653273353}
+  m_Layer: 7
+  m_Name: GrabPointLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &737774604653273353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4551341161349079658}
+  m_LocalRotation: {x: -0.0028630083, y: -0.026239268, z: 0.10843004, w: 0.9937536}
+  m_LocalPosition: {x: 0.0036, y: 0.003, z: -0.0042}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8223954560915248577}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: -3.025, z: 12.454}
 --- !u!1 &7599316279599964115
 GameObject:
   m_ObjectHideFlags: 0
@@ -60,7 +91,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8223954560915248577}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8223954560914885089
 GameObject:
@@ -97,6 +128,7 @@ Transform:
   - {fileID: 8223954560915248581}
   - {fileID: 8223954560915248583}
   - {fileID: 688848978104028574}
+  - {fileID: 737774604653273353}
   - {fileID: 7024413148365026431}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -139,11 +171,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8223954560914885089}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 607e57e432b1f254aa63ed76581c3747, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 6164901810646470332}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -211,7 +244,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 688848978104028574}
+  m_AttachTransform: {fileID: 0}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
@@ -255,6 +288,8 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+  leftAttachTransform: {fileID: 737774604653273353}
+  rightAttachTransform: {fileID: 688848978104028574}
 --- !u!114 &651091211
 MonoBehaviour:
   m_ObjectHideFlags: 0
