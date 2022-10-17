@@ -7209,9 +7209,9 @@ MonoBehaviour:
   m_Acceleration: 9.8
   m_AdditionalGroundHeight: 0.1
   m_AdditionalFlightTime: 0.5
-  m_EndPointDistance: 8
-  m_EndPointHeight: -10
-  m_ControlPointDistance: 10
+  m_EndPointDistance: 10
+  m_EndPointHeight: -2
+  m_ControlPointDistance: 2
   m_ControlPointHeight: 5
   m_SampleFrequency: 20
   m_HitDetectionType: 0
@@ -10587,6 +10587,10 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 2038530808}
+    - target: {fileID: 313455246, guid: 087e2a9d318d8b842b11b221d1f79534, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 313455247, guid: 087e2a9d318d8b842b11b221d1f79534, type: 3}
       propertyPath: m_UseGravity
       value: 0
@@ -11205,9 +11209,9 @@ MonoBehaviour:
   m_Acceleration: 9.8
   m_AdditionalGroundHeight: 0.1
   m_AdditionalFlightTime: 0.5
-  m_EndPointDistance: 8
-  m_EndPointHeight: -10
-  m_ControlPointDistance: 10
+  m_EndPointDistance: 10
+  m_EndPointHeight: -2
+  m_ControlPointDistance: 2
   m_ControlPointHeight: 5
   m_SampleFrequency: 20
   m_HitDetectionType: 0
