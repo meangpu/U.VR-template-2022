@@ -104,8 +104,8 @@ GameObject:
   - component: {fileID: 8223954560915248577}
   - component: {fileID: 4109210817885825322}
   - component: {fileID: 6164901810646470332}
-  - component: {fileID: 3758031639448107765}
   - component: {fileID: 651091211}
+  - component: {fileID: 4177739379174868109}
   m_Layer: 7
   m_Name: Pistol
   m_TagString: Untagged
@@ -162,7 +162,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0125235785, y: 0.042538323, z: 0.04500345}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3758031639448107765
+--- !u!114 &651091211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8223954560914885089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac6eecbb26809a74e8cc19ecb8fb832a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 4601149204399868954, guid: b511a1e616718fe4b9f911af554fa021,
+    type: 3}
+  spawnPoint: {fileID: 7024413148365026431}
+  bulletSpeed: 10
+  bulletLifeTimeSec: 8
+--- !u!114 &4177739379174868109
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,8 +192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
-  m_Colliders:
-  - {fileID: 6164901810646470332}
+  m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -248,7 +264,7 @@ MonoBehaviour:
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
-  m_SnapToColliderVolume: 0
+  m_SnapToColliderVolume: 1
   m_AttachEaseInTime: 0.15
   m_MovementType: 2
   m_VelocityDamping: 1
@@ -290,23 +306,6 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   leftAttachTransform: {fileID: 737774604653273353}
   rightAttachTransform: {fileID: 688848978104028574}
---- !u!114 &651091211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8223954560914885089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac6eecbb26809a74e8cc19ecb8fb832a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 4601149204399868954, guid: b511a1e616718fe4b9f911af554fa021,
-    type: 3}
-  spawnPoint: {fileID: 7024413148365026431}
-  bulletSpeed: 10
-  bulletLifeTimeSec: 8
 --- !u!1 &8223954560914885093
 GameObject:
   m_ObjectHideFlags: 0
