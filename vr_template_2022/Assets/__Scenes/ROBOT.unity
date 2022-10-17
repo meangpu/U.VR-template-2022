@@ -2322,7 +2322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentObject: {fileID: 1829515651}
   easeType: 0
-  increase: 2
+  increase: 1
   staticTimeDuration: 0.2
   allAtOnceMultiple: 0.5
   allAtOnce: 0
