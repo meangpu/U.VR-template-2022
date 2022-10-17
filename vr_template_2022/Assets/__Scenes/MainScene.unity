@@ -12350,6 +12350,26 @@ PrefabInstance:
     - target: {fileID: 4511655668434668115, guid: befe8417374fa25438a4f23f0d5c31b1,
         type: 3}
       propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511655668434668117, guid: befe8417374fa25438a4f23f0d5c31b1,
+        type: 3}
+      propertyPath: m_SelectMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511655668434668117, guid: befe8417374fa25438a4f23f0d5c31b1,
+        type: 3}
+      propertyPath: m_UseDynamicAttach
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511655668434668117, guid: befe8417374fa25438a4f23f0d5c31b1,
+        type: 3}
+      propertyPath: m_RetainTransformParent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511655668434668117, guid: befe8417374fa25438a4f23f0d5c31b1,
+        type: 3}
+      propertyPath: m_StartingSingleGrabTransformers.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8223954560914885089, guid: befe8417374fa25438a4f23f0d5c31b1,
