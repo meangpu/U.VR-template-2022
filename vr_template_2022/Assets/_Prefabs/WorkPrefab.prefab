@@ -1158,7 +1158,6 @@ GameObject:
   - component: {fileID: 4172890088000719023}
   - component: {fileID: 878580201560557400}
   - component: {fileID: 2667928536817163169}
-  - component: {fileID: 5784455815359959800}
   m_Layer: 0
   m_Name: CanvasBig
   m_TagString: Untagged
@@ -1232,21 +1231,6 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 1
---- !u!114 &5784455815359959800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4912232121479260821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbc9eb1e4123f9d48aa85e734bd8ab1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _srcImage: []
-  _imagePrefab: {fileID: 155275423217756540, guid: 5f25c22dbebaeb24c9958010689e90cc, type: 3}
-  _parentTrans: {fileID: 6557362183028493381}
 --- !u!1 &5852177335340797736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1587,7 +1571,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 76a02f5f977fb29478bdb8e745a2548d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1633,6 +1617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6638455826973029525}
   - component: {fileID: 6638455826973029524}
+  - component: {fileID: 9175931539027163650}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -1717,6 +1702,26 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &9175931539027163650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638455826973029526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &6638455827265927474
 GameObject:
   m_ObjectHideFlags: 0
@@ -2728,7 +2733,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 76a02f5f977fb29478bdb8e745a2548d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
