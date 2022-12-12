@@ -1,0 +1,23 @@
+
+> Configure project :launcher
+WARNING: The option setting 'android.enableR8=false' is deprecated.
+
+It will be removed in version 5.0 of the Android Gradle plugin.
+You will no longer be able to disable R8
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':launcher:mergeReleaseNativeLibs'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
+   > More than one file was found with OS independent path 'lib/arm64-v8a/libopenxr_loader.so'. If you are using jniLibs and CMake IMPORTED targets, see https://developer.android.com/studio/preview/features#automatic_packaging_of_prebuilt_dependencies_used_by_cmake
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
